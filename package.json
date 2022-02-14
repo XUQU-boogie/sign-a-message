@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@ethersproject/providers": "^5.1.2",
+    "@ethersproject/wallet": "^5.1.0",
+    "@types/node": "^15.3.0",
+    "enquirer": "^2.3.6",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "prettier": "^2.3.0"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "start": "ts-node --transpile-only src/index.ts"
+  }
+}
